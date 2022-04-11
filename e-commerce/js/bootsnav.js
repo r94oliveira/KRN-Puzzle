@@ -196,7 +196,7 @@
             // ------------------------------------------------------------------------------ //
             // Toggle Side Menu
             // ------------------------------------------------------------------------------ //
-            $("nav.navbar.bootsnav .attr-nav").each(function(){  
+          /*  $("nav.navbar.bootsnav .attr-nav").each(function(){  
                 $("li.side-menu > a", this).on("click", function(e){
                     e.preventDefault();
                     $("nav.navbar.bootsnav > .side").toggleClass("on");
@@ -208,7 +208,7 @@
                 $("nav.navbar.bootsnav > .side").removeClass("on");
                 $("body").removeClass("on-side");
             });  
-            
+            */
             
             
             // ------------------------------------------------------------------------------ //
