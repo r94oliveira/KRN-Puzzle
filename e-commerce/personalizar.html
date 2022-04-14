@@ -150,34 +150,84 @@
                        
                         <br>
                      
-						<h4>Tamanho:</h4>
-                        <INPUT TYPE="Radio" Name="Gender" ID="R1" Value="Pequeno">
-                            <LABEL FOR="R1">Pequeno</LABEL>
+                        <div style="display:flex;">
+                            <div style="width:50%;">
+                                <h4>Tamanho do quebra-cabeça inteiro:</h4>
 
-                            <br>
-                            <INPUT TYPE="Radio" Name="Gender" ID="R2" Value="Médio">
-                            <LABEL FOR="R2">Médio</LABEL>
+                            <INPUT TYPE="Radio" Name="Size" ID="R1" Value="Pequeno">
+                                <LABEL FOR="R1">20cm</LABEL>
 
-                            <br>
-                            <INPUT TYPE="Radio" Name="Gender" ID="R2" Value="Grande">
-                            <LABEL FOR="R2">Grande</LABEL>
-                            <br>
+                                <br>
+                                <INPUT TYPE="Radio" Name="Size" ID="R2" Value="Médio">
+                                <LABEL FOR="R2">35cm</LABEL>
 
+                                <br>
+                                <INPUT TYPE="Radio" Name="Size" ID="R2" Value="Grande">
+                                <LABEL FOR="R2">50cm</LABEL>
+                                <br>
+
+
+                            </div>
+                            <div style="width:50%;">
+                                <h4>Quantidade de peças no quebra-cabeça:</h4>
+
+                            <INPUT TYPE="Radio" Name="Gender" ID="R1" Value="Pequeno">
+                                <LABEL FOR="R1">25 peças</LABEL>
+
+                                <br>
+                                <INPUT TYPE="Radio" Name="Gender" ID="R2" Value="Médio">
+                                <LABEL FOR="R2">50 peças</LABEL>
+
+                                <br>
+                                <INPUT TYPE="Radio" Name="Gender" ID="R2" Value="Grande">
+                                <LABEL FOR="R2">100 peças</LABEL>
+                                <br>
+
+                            </div>
+
+                        </div>
+                        <div class="form-group quantity-box" style="width:45%;">
+                            <h4>Quantidade de quebra-cabeças:</h4>
+                            <input class="form-control" value="0" min="0" max="20" type="number">
+                        </div>
+						<div class="price-box-bar" style="display:flex;">
+                            <div style="width:50%;">
                             <h4>Preço:</h4>
                             <h5> $40.79</h5>
-    
-
-						<div class="price-box-bar">
-                            <br>
+                            </div>
+                            
+                            <div style="width:50%;">
 							<div class="cart-and-bay-btn">
+                                <br>
 								<a class="btn hvr-hover" data-fancybox-close="" href="#">Adicionar ao carrinho</a>
 							</div>
+                        </div>
 						</div>
 
                     </div>
                 </div>
             </div>
-	
+            <div class="row" style="padding-left:30px;">
+
+
+              <div>
+                        <div class="">
+                            <h3><strong>Instruções sobre como criar o quebra-cabeça personalizado:</strong></h3>
+                        </div>
+                        <h5><a data-toggle="collapse" href="#formLogin" role="button" aria-expanded="false" style="font-size:15px;">Clique aqui para ler as instruções.</a></h5>
+                        <form class="mt-3 collapse review-form-box" id="formLogin">
+                            <ul>
+                                <li>- Clique em "Escolher Arquivo" e selecione a imagem desejada. Use imagens com boa resolução para a arte do quebra-cabeça não ficar ruim. </li>
+                                <li>- Escolha o Tamanho do quebra-cabeça inteiro.</li>
+                                <li>- Escolha a Quantidade de peças.</li>
+                                <li>- Visualize a imagem gerada ao lado esquerdo.</li>
+                                <li>- Visualize o preço do produto.</li>
+                                <li>- Selecione adicionar ao carrinho para prosseguir com a compra.</li>
+                                <li>- Após a realização do pedido, o cancelamento do mesmo não poderá ser feito considerando que o produto é personalizado.</li>
+                            </ul>
+                        </form>
+                        <br><br>
+                    </div>
 
         </div>
     </div>
