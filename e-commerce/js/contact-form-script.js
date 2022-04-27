@@ -2,11 +2,12 @@ $("#contactForm").validator().on("submit", function (event) {
     if (event.isDefaultPrevented()) {
         // handle the invalid form...
         formError();
-        submitMSG(false, "Você preencheu o formulário adequadamente?");
+        submitMSG(false, "Favor preencher corretamente todos os campos");
     } else {
         // everything looks good!
         event.preventDefault();
         submitForm();
+        submitMSG(true,"Mensagem enviada!")
     }
 });
 
