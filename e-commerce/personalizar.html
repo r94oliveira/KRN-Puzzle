@@ -29,6 +29,8 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/custom.css">
 
+    <script src="https://kit.fontawesome.com/b3d2ea79fd.js" crossorigin="anonymous"></script>
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
@@ -45,10 +47,11 @@
             <div class="container">
                 <!-- Start Header Navigation -->
                 <div class="navbar-header">
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fa fa-bars"></i>
-                </button>
-                    <div style="font-size: 35px;">KRN PUZZLE</div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-menu"
+                        aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa fa-bars"></i>
+                    </button>
+                    <div style="font-size: 35px;"><a href="index.html">KRN PUZZLE</a></div>
                 </div>
                 <!-- End Header Navigation -->
 
@@ -60,16 +63,16 @@
                         <li class="dropdown">
                             <a href="#" class="nav-link dropdown-toggle arrow" data-toggle="dropdown">Produtos</a>
                             <ul class="dropdown-menu">
-								<li><a href="shop.html">Lista de produtos</a></li>
-								<li><a href="shop-detail.html">Detalhe do produto</a></li>
+                                <li><a href="shop.html">Lista de produtos</a></li>
+                                <li><a href="shop-detail.html">Detalhe do produto</a></li>
                                 <li><a href="personalizar.html">Personalizar produto</a></li>
                                 <li><a href="cart.html">Carrinho</a></li>
                                 <li><a href="checkout.html">Checkout</a></li>
                                 <li><a href="my-account.html">Minha conta</a></li>
-                      
+
                             </ul>
                         </li>
-                     
+
                         <li class="nav-item"><a class="nav-link" href="contact-us.html">Contato</a></li>
                     </ul>
                 </div>
@@ -80,12 +83,12 @@
                     <ul>
                         <li class="search"><a href="#"><i class="fa fa-search"></i></a></li>
                         <li class="side-menu">
-							<a href="./cart.html">
-								<i class="fa fa-shopping-bag"></i>
-								<span class="badge">3</span>
-								<p>Carrinho</p>
-							</a>
-						</li>
+                            <a href="./cart.html">
+                                <i class="fa fa-shopping-bag"></i>
+                                <span class="badge">3</span>
+                                <p>Carrinho</p>
+                            </a>
+                        </li>
                     </ul>
                 </div>
                 <!-- End Atribute Navigation -->
@@ -111,7 +114,8 @@
     <!-- Start All Title Box -->
     <div class="all-title-box">
         <div class="container">
-            <div class="row">                <div class="col-lg-12">
+            <div class="row">
+                <div class="col-lg-12">
                     <h2>Personalizar</h2>
                     <ul class="breadcrumb">
                         <li class="breadcrumb-item"><a href="#">Produtos</a></li>
@@ -130,11 +134,12 @@
                 <div class="col-xl-5 col-lg-5 col-md-6">
                     <div id="carousel-example-1" class="single-product-slider carousel slide" data-ride="carousel">
                         <div class="carousel-inner" role="listbox">
-                            <div class="carousel-item active"> <img class="d-block w-100" src="images/big-img-01.jpg" alt="First slide"> </div>
-                     
+                            <div class="carousel-item active"> <img class="d-block w-100" src="images/big-img-01.jpg"
+                                    alt="First slide"> </div>
+
                         </div>
 
-                        
+
                     </div>
                 </div>
                 <div class="col-xl-7 col-lg-7 col-md-6">
@@ -142,20 +147,22 @@
 
                         <h2>Quebra-cabeça personalizado</h2>
                         <p>Selecione abaixo a imagem que quer usar para criar o quebra-cabeças:</p>
-                       
-                            <a class="btn" href="#"><form action="/action_page.php">
+
+                        <a class="btn" href="#">
+                            <form action="/action_page.php">
                                 <label for="img"></label>
                                 <input type="file" id="img" name="img" accept="image/*">
-                               
-                              </form></a>
-                       
+
+                            </form>
+                        </a>
+
                         <br>
-                     
+
                         <div style="display:flex;">
                             <div style="width:50%;">
                                 <h4>Tamanho do quebra-cabeça inteiro:</h4>
 
-                            <INPUT TYPE="Radio" Name="Size" ID="R1" Value="Pequeno">
+                                <INPUT TYPE="Radio" Name="Size" ID="R1" Value="Pequeno">
                                 <LABEL FOR="R1">20cm</LABEL>
 
                                 <br>
@@ -172,7 +179,7 @@
                             <div style="width:50%;">
                                 <h4>Quantidade de peças no quebra-cabeça:</h4>
 
-                            <INPUT TYPE="Radio" Name="Gender" ID="R1" Value="Pequeno">
+                                <INPUT TYPE="Radio" Name="Gender" ID="R1" Value="Pequeno">
                                 <LABEL FOR="R1">25 peças</LABEL>
 
                                 <br>
@@ -191,19 +198,19 @@
                             <h4>Quantidade de quebra-cabeças:</h4>
                             <input class="form-control" value="0" min="0" max="20" type="number">
                         </div>
-						<div class="price-box-bar" style="display:flex;">
+                        <div class="price-box-bar" style="display:flex;">
                             <div style="width:50%;">
-                            <h4>Preço:</h4>
-                            <h5> $40.79</h5>
+                                <h4>Preço:</h4>
+                                <h5> $40.79</h5>
                             </div>
-                            
+
                             <div style="width:50%;">
-							<div class="cart-and-bay-btn">
-                                <br>
-								<a class="btn hvr-hover" data-fancybox-close="" href="#">Adicionar ao carrinho</a>
-							</div>
+                                <div class="cart-and-bay-btn">
+                                    <br>
+                                    <a class="btn hvr-hover" data-fancybox-close="" href="#">Adicionar ao carrinho</a>
+                                </div>
+                            </div>
                         </div>
-						</div>
 
                     </div>
                 </div>
@@ -211,111 +218,119 @@
             <div class="row" style="padding-left:30px;">
 
 
-              <div>
-                        <div class="">
-                            <h3><strong>Instruções sobre como criar o quebra-cabeça personalizado:</strong></h3>
-                        </div>
-                        <h5><a data-toggle="collapse" href="#formLogin" role="button" aria-expanded="false" style="font-size:15px;">Clique aqui para ler as instruções.</a></h5>
-                        <form class="mt-3 collapse review-form-box" id="formLogin">
-                            <ul>
-                                <li>- Clique em "Escolher Arquivo" e selecione a imagem desejada. Use imagens com boa resolução para a arte do quebra-cabeça não ficar ruim. </li>
-                                <li>- Escolha o Tamanho do quebra-cabeça inteiro.</li>
-                                <li>- Escolha a Quantidade de peças.</li>
-                                <li>- Visualize a imagem gerada ao lado esquerdo.</li>
-                                <li>- Visualize o preço do produto.</li>
-                                <li>- Selecione adicionar ao carrinho para prosseguir com a compra.</li>
-                                <li>- Após a realização do pedido, o cancelamento do mesmo não poderá ser feito considerando que o produto é personalizado.</li>
-                            </ul>
-                        </form>
-                        <br><br>
+                <div>
+                    <div class="">
+                        <h3><strong>Instruções sobre como criar o quebra-cabeça personalizado:</strong></h3>
                     </div>
+                    <h5><a data-toggle="collapse" href="#formLogin" role="button" aria-expanded="false"
+                            style="font-size:15px;">Clique aqui para ler as instruções.</a></h5>
+                    <form class="mt-3 collapse review-form-box" id="formLogin">
+                        <ul>
+                            <li>- Clique em "Escolher Arquivo" e selecione a imagem desejada. Use imagens com boa
+                                resolução para a arte do quebra-cabeça não ficar ruim. </li>
+                            <li>- Escolha o Tamanho do quebra-cabeça inteiro.</li>
+                            <li>- Escolha a Quantidade de peças.</li>
+                            <li>- Visualize a imagem gerada ao lado esquerdo.</li>
+                            <li>- Visualize o preço do produto.</li>
+                            <li>- Selecione adicionar ao carrinho para prosseguir com a compra.</li>
+                            <li>- Após a realização do pedido, o cancelamento do mesmo não poderá ser feito considerando
+                                que o produto é personalizado.</li>
+                        </ul>
+                    </form>
+                    <br><br>
+                </div>
 
+            </div>
         </div>
-    </div>
-    <!-- End Cart -->
+        <!-- End Cart -->
 
-    <!-- Start Footer  -->
-    <footer>
-        <div class="footer-main">
-            <div class="container">
-				
-				<hr>
-                <div class="row">
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-link">
-                            <h4>Informações</h4>
-                            <ul>
-                                <li><a href="#">Sobre nós</a></li>
-                                <li><a href="#">Serviços</a></li>
-                                <li><a href="#">Mapa do site</a></li>
-                                <li><a href="#">Termos e condições</a></li>
-                                <li><a href="#">Política de privacidade</a></li>
-                                <li><a href="#">Informações de entrega</a></li>
-                            </ul>
+        <!-- Start Footer  -->
+        <footer>
+            <div class="footer-main">
+                <div class="container">
+
+                    <hr>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="footer-link">
+                                <h4>Informações</h4>
+                                <ul>
+                                    <li><a href="#">Sobre nós</a></li>
+                                    <li><a href="#">Serviços</a></li>
+                                    <li><a href="#">Mapa do site</a></li>
+                                    <li><a href="#">Termos e condições</a></li>
+                                    <li><a href="#">Política de privacidade</a></li>
+                                    <li><a href="#">Informações de entrega</a></li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-link-contact">
-                            <h4>Contato</h4>
-                            <ul>
-                                <li>
-                                    <p><i class="fas fa-map-marker-alt"></i>Endereço: Av. Cel. Francisco H. dos Santos, 100 - Jardim das Américas, Curitiba - PR, 81530-000 </p>
-                                </li>
-                                <li>
-                                    <p><i class="fas fa-phone-square"></i>Telefone: <a href="tel:+1-888705770">+55 41 9 9530 4933</a></p>
-                                </li>
-                                <li>
-                                    <p><i class="fas fa-envelope"></i>Email: <a href="mailto:contactinfo@gmail.com">krn-puzzle@gmail.com</a></p>
-                                </li>
-                            </ul>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="footer-link-contact">
+                                <h4>Contato</h4>
+                                <ul>
+                                    <li>
+                                        <p><i class="fas fa-map-marker-alt"></i>Endereço: Av. Cel. Francisco H. dos
+                                            Santos, 100 - Jardim das Américas, Curitiba - PR, 81530-000 </p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fas fa-phone-square"></i>Telefone: <a href="tel:+1-888705770">+55
+                                                41 9 9530 4933</a></p>
+                                    </li>
+                                    <li>
+                                        <p><i class="fas fa-envelope"></i>Email: <a
+                                                href="mailto:atendimento@krnpuzzle.com">atendimento@krnpuzzle.com</a>
+                                        </p>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="footer-top-box">
-							<h3>Redes Sociais</h3>
-							<p>Veja mais sobre nosso trabalho!</p>
-							<ul>
-                                <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
-                                <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
-                            </ul>
-						</div>
+                        <div class="col-lg-4 col-md-12 col-sm-12">
+                            <div class="footer-top-box">
+                                <h3>Redes Sociais</h3>
+                                <p>Veja mais sobre nosso trabalho!</p>
+                                <ul>
+                                    <li><a href="#"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-google-plus" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-pinterest-p" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-whatsapp" aria-hidden="true"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </footer>
+        <!-- End Footer  -->
+
+        <!-- Start copyright  -->
+        <div class="footer-copyright">
+            <p class="footer-company">All Rights Reserved. &copy; 2022 <a href="#">KRN Puzzle</a> Design By :
+                <a href="https://html.design/">UFPR</a>
+            </p>
         </div>
-    </footer>
-    <!-- End Footer  -->
+        <!-- End copyright  -->
 
-    <!-- Start copyright  -->
-    <div class="footer-copyright">
-        <p class="footer-company">All Rights Reserved. &copy; 2022 <a href="#">KRN Puzzle</a> Design By :
-            <a href="https://html.design/">UFPR</a></p>
-    </div>
-    <!-- End copyright  -->
+        <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
 
-    <a href="#" id="back-to-top" title="Back to top" style="display: none;">&uarr;</a>
-
-    <!-- ALL JS FILES -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/popper.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/jquery.superslides.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/inewsticker.js"></script>
-    <script src="js/bootsnav.js."></script>
-    <script src="js/images-loded.min.js"></script>
-    <script src="js/isotope.min.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/baguetteBox.min.js"></script>
-    <script src="js/form-validator.min.js"></script>
-    <script src="js/contact-form-script.js"></script>
-    <script src="js/custom.js"></script>
+        <!-- ALL JS FILES -->
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <!-- ALL PLUGINS -->
+        <script src="js/jquery.superslides.min.js"></script>
+        <script src="js/bootstrap-select.js"></script>
+        <script src="js/inewsticker.js"></script>
+        <script src="js/bootsnav.js."></script>
+        <script src="js/images-loded.min.js"></script>
+        <script src="js/isotope.min.js"></script>
+        <script src="js/owl.carousel.min.js"></script>
+        <script src="js/baguetteBox.min.js"></script>
+        <script src="js/form-validator.min.js"></script>
+        <script src="js/contact-form-script.js"></script>
+        <script src="js/custom.js"></script>
 </body>
 
 </html>
