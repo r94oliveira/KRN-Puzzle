@@ -2575,8 +2575,17 @@
 	border: none;
 }
 
+.iframeVideo {
+	height: 0px;
+	padding: 0 0 56.2% 12%;
+	position: relative;
+}
 
-
+.iframeVideo iframe {
+	width: 80%;
+	height: 80%;
+	position: absolute;
+}
 
 
 
